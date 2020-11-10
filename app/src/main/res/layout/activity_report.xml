@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".ReportActivity">
 
+    <fragment
+        android:id="@+id/fragment_report"
+        android:name="lln.relatorio.jw.ReportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/report_fragment" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
